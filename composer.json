@@ -1,16 +1,24 @@
 {
-  "name": "nastyalover/cold-hot",
-  "require": {
-    "wp-cli/php-cli-tools": "^0.11.13"
-  },
-  "type": "project",
-  "bin": [
-    "bin/cold_hot.php"
-  ],
-  "autoload": {
-    "files": [
-      "src/Controller.php",
-      "src/View.php"
-    ]
-  }
+    "name": "sifon/cold-hot",
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.13"
+    },
+    "type": "project",
+    "authors": [
+      {
+        "name": "nastyalover"
+      }
+    ],
+    "bin": [
+        "bin/cold_hot.php"
+    ],
+    "autoload":{
+        "files":[
+            "src/Controller.php",
+            "src/View.php"
+        ]
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.6"
+    }
 }
